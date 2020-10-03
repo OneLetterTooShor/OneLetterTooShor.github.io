@@ -1,0 +1,26 @@
+
+.body1{
+    margin-left:10%;
+    margin-right:10%;
+    padding-bottom:35px;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+
+.card-deck .card{
+    max-width:400px;
+    height:auto;
+}
+
+.interests{
+    max-width: 600px;
+}
+footer {
+    bottom:0;
+    position:fixed;
+    width:100%;
+}
+footer .container{
+    text-align:center;
+}

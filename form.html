@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+        <title>About Me</title>
+        <link rel="stylesheet" href="resources/css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      </head>
+      <body>
+        <div class="outer">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="mypage_bootstrap.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item" style="position:absolute; right:0; margin-right:20px;">
+                    <a class ="navlink" href="https://www.github.com/OneLetterTooShor">
+                    <img src="resources/img/GitLogo.png">
+                    </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <div class="body1">
+
+            <form>
+                <div class="form-group">
+                  <h1>Add New Interest</h1>
+                  <label for="formGroupExampleInput">Interest Name</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="formGroupExampleInput2">Text About Interest</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput2" style="height:200px">
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="column">
+                            <div class="form-group">
+                                <label for="exampleFormControlFile1">Upload Local Image:</label>
+                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                            </div>
+                        </div>
+                    <div class="column"style = "margin-right:8%">
+                    <label for="exampleFormControlSelect1">Select # of Tweets to Display:</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        </select>
+                    </div>
+                    <div class="column">
+                        <p>On a scale of 1-5, how interested in this are you?</p>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">1</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">2</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
+                            <label class="form-check-label" for="inlineRadio3">3 (disabled)</label>
+                          </div>
+                    </div>
+                </div>
+                </div>
+                <br>
+                <div class="row">
+                    <br>
+                    <p>Login to Finish Submitting</p>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Username">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Password">
+                    </div>
+                </div>
+                <br>
+                <a href="mypage_bootstrap.html" class="btn btn-primary">Submit</a>
+              </form>
+        </div>
+        </div>
+        <footer class="footer navbar-fixed-bottom bg-dark">
+            <div class="container">
+                <a href="https://www.linkedin.com/in/andrew-settergren-244887170/"><img src="resources/img/linkedin.svg" alt="linkedin" width="50" height="50"></a>
+            </div>
+        </footer>
+    </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      </body>
+    </html>
