@@ -1,0 +1,14 @@
+nav{
+    height:5em;
+}
+a.nav-link{
+    color: white;
+    margin-top:auto;
+    margin-bottom:auto;
+    padding-left:2em;
+    font-size:26px;
+}
+a:hover{
+    color:blanchedalmond;
+}
+
