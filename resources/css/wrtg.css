@@ -9,9 +9,9 @@ a.nav-link{
     font-size:26px;
 }
 a:hover{
-    color:blanchedalmond;
+    color:rgb(255, 235, 205);
 }
 #active{
-    color:burlywood;
+    color:rgb(230, 186, 129);
 }
 
