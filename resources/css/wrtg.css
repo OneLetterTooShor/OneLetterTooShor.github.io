@@ -11,4 +11,7 @@ a.nav-link{
 a:hover{
     color:blanchedalmond;
 }
+#active, a:active {
+    color:burlywood;
+}
 
