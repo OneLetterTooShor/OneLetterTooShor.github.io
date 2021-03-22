@@ -16,60 +16,159 @@
 	<script type="text/javascript" src="./login.js"></script>
 </head>
 
-<body>
+<body class="bg-light">
     <nav class="navbar-dark bg-dark d-flex justify-content-center" >
         <a class="nav-link" href="wrtg.html">Start Here! →</a>
 
-              <a class="nav-link" href="wrtg1.html">Use Cases →</a>
+              <a class="nav-link" href="wrtg-1.html">Use Cases →</a>
 
-              <a class="nav-link" id="active" href="wrtg2.html">Physical Design and Constraints →</a>
+              <a class="nav-link" id="active" href="wrtg-2.html">Physical Design and Constraints →</a>
 
-              <a class="nav-link" href="wrtg3.html">The Internals and Conclusion</a>
+              <a class="nav-link" href="wrtg-3.html">Analysis and Conclusion</a>
 
       </nav>
-
-	<div class="jumbotron jumbotron-fluid">
+      <div class="jumbotron jumbotron-fluid" style="max-width:1360px; margin-left:auto; margin-right:auto;">
         
 		<div class="container">
 			<h1 style="text-align:center;">Design Analysis on Computer Monitors</h1>
-			<p>
-                Computer monitors are seeing a dramatic rise in sales ever since the start of the Covid Pandemic. We see and hear about lots of people having to work remotely,
-                and surely some have gone out and decided it’s time to get an external monitor or to upgrade their current one. I can speak for myself while having to spend a lot more time inside,
-                though had a different excuse to upgrade an old monitor to a high-end gaming monitor (with covid came the increase demand for gaming and media consumption). The problem is, there are thousands of these monitors – hundreds of different brands – and an abysmal amount of 
-                differently designed monitors suited for different needs. What design and type is best for your purchasing decision? The goal of this web page is to answer this question by giving a design analysis
-                on the different types of monitors that exist today, and a more detailed breakdown of why I chose the monitor I recently purchased.
+			<p style="text-align:center;">
+                In this section, we will look at all the physical designs and constraints of a monitor that should be taken into consideration when deciding what monitor to purchase. After 
+                highlighting all the features that make up the physical design, we will breakdown each of these components on the monitor I have recently purchased as a more formal design analysis. This 
+                will be the last page <a href="wrtg-3.html" id="analysis"> (Analysis and Conclusion)</a>.
             </p>
 		</div>
-	</div>
-    <div class="jumbotron jumbotron-fluid bg-light" style="margin-top:-32px;">
-        <h1 style="text-align:center;">Choosing Between an LCD and LED Monitor </h1>
+	</div>  
+
+	<div id="banner-2" style="margin-top:-32px;">
+        <div style="margin-left:auto;margin-right:auto;">
+        <img src="./resources/img/matte_glossy.jpg" style="margin-left:auto;margin-right:auto; display:block;">
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid" style="max-width:1360px; margin-left:auto; margin-right:auto;">
+        <h1 style="text-align:center;">Glossy vs. Matte Screen</h1>
 		<div class="container" style = "margin-top:40px;">
             <div class="row">
-                <div class="col-sm" style="padding-left:10px; padding-right:10px;">
-			<h2 style="text-align:center;">LCD</h2>
+                <div class="col-sm" style="margin-right:40px;">
+			<h2 style="text-align:center;">Matte</h2>
 			<p>
-                Computer monitors are seeing a dramatic rise in sales ever since the start of the Covid Pandemic. We see and hear about lots of people having to work remotely,
-                and surely some have gone out and decided it’s time to get an external monitor or to upgrade. I can speak for myself while having to spend a lot more time inside,
-                though had a different excuse to upgrade an old monitor to a high-end gaming monitor (with covid came the increase demand for gaming and media consumption). The problem is, there are thousands of these monitors – hundreds of different brands – and an abysmal amount of 
-                differently designed monitors suited for different needs. What design is best for your purchasing decision? The goal of this web page is to answer this question by giving a design analysis
-                on the different types of monitors that exist today, and a more detailed breakdown of the monitor I decided to purchase.
+                If you get a monitor with a matte finish, you will notice that it can easily prohibit glare from occurring as matte finished screens go through an extra manufacturing process. 
+                If a product is designed to have a matte finish, then they will spray a light-scattering antireflection layer on the top-most layer of your screen. This layer will diminish the amount of glare 
+                you see on your typical glossy screen as direct and indirect light from the environment will be more dispersed, such that you do not see reflections. As a result, the screen of your 
+                monitor will not look as bright or vivid as it would without this coating. This coating is most suitable if your monitor will be placed in an area with lots of ambient lighting and direct/indirect 
+                sunlight, though I believe is suitable for all lighting environments (including darkness). In my experience, I do not like having a blaringly bright screen and believe that the matte finish adds an 
+                extra layer of “crispness” to images displayed on the screen. 
             </p>
 		</div>
-        <div class="col-sm" style="padding-left:10px; padding-right:10px;">
-			<h2 style="text-align:center;">LED</h2>
+        <div class="col-sm" style="margin-left:40px;">
+			<h2 style="text-align:center;">Glossy</h2>
 			<p>
-                Computer monitors are seeing a dramatic rise in sales ever since the start of the Covid Pandemic. We see and hear about lots of people having to work remotely,
-                and surely some have gone out and decided it’s time to get an external monitor or to upgrade. I can speak for myself while having to spend a lot more time inside,
-                though had a different excuse to upgrade an old monitor to a high-end gaming monitor (with covid came the increase demand for gaming and media consumption). The problem is, there are thousands of these monitors – hundreds of different brands – and an abysmal amount of 
-                differently designed monitors suited for different needs. What design is best for your purchasing decision? The goal of this web page is to answer this question by giving a design analysis
-                on the different types of monitors that exist today, and a more detailed breakdown of the monitor I decided to purchase.
+                If you get a monitor with a glossy screen, you will notice that the brightness and color of the screen is far greater than one with a matte finish. A glossy screen is made 
+                up of a series of slim polarizer films, glass, and liquid crystals. The layer of the screen that produces this glossy finish is a polarizing film laid over glass or liquid crystals. 
+                This enables more sharp and vividly colored images, as well as increased brightness. Due to the natural reflectivity of these screens, they are not optimal in environments with direct/indirect 
+                sunlight, ambient lighting, or generally anywhere that isn’t dark or has low lighting. It is also easier to see imperfections on your screen, as any damages to its surface or components behind 
+                the screen will tend to “bleed” through, where as with a matte finish it will not be as apparent. 
             </p>
 		</div>
         </div>
 	</div>
+    </div>
+
+    <div class="bg-light" style="margin-top:130px; max-width:1360px; margin-left:auto; margin-right:auto;">
+        <div style="width:450px; float:left;">
+            <img src="./resources/img/dimensions.jpg" >
+        </div>
+        
+        <div class="justify-content-center" style="width:830px; margin-left:500px;" >
+            <h2>Dimensions</h2>
+            <p>
+                The dimensions of a monitor are particularly important when you have limited space to fit a monitor, otherwise it is primarily used to inform you of the screen size. 
+                When reading the labeling for any monitor, the screen size given is a cross measurement from one corner of the screen to the opposite corner. The picture provided shows 
+                this cross measurement and is no different than how a television’s screen is measured. Screen size can affect the clarity of images on a monitor as having a large screen 
+                (27 inches or more) with standard resolution (1920x1080p resolution, this will be discussed more below) will make images on the screen appear stretched and pixelated. 
+                If you have a smaller desk space that you are planning to use your monitor at, measure the amount of space available to set the monitor on and check the dimensions of the base of a monitor. 
+            </p>
+        </div>
+    </div>
+
+    <div style="margin-top:130px; max-width:1360px; margin-left:auto; margin-right:auto;">
+        <div style="width:450px; float:right; ">
+            <img src="./resources/img/speakers.jpg" style="width:450px;" >
+        </div>
+        
+        <div class="justify-content-center" style="width:830px;" >
+            <h2>Speakers</h2>
+            <p>
+                Lots of cheaper or more general use monitors do not actually come with speakers due to the dimensional constraints of them. Since monitors are designed to be thin, 
+                it is very hard to fit speakers into the shell of a monitor and are often left out of the design or manufactured with small and cheap speakers that sound equivalent to modern phone speakers. 
+                If you are looking for something that has good sound quality, you will have to pay a higher price or settle for a thicker monitor that ideally has front facing speakers. 
+            </p>
+        </div>
+    </div>
+
+    <div class="bg-light" style="margin-top:130px; max-width:1360px; margin-left:auto; margin-right:auto;">
+        <div style="width:450px; float:left;">
+            <img src="./resources/img/controls.jpg" style="width:450px;" >
+        </div>
+        
+        <div class="justify-content-center" style="width:830px; margin-left:500px;" >
+            <h2>Controls For Navigating Monitor Settings</h2>
+            <p>
+                The controls on a monitor are used to change important features on a monitor. This varies from monitor to monitor and is typically used to change the screens brightness, 
+                contrast, gamma, sharpness, and any other additional color settings for a monitor. It is also used to change between video inputs on the monitor, much like how you would use a TV 
+                remote to change the input from a DVD player to live TV or any other accessories hooked up to your tv (i.e. Chromecasts, Roku, Amazon Firestick, gaming consoles, etc.). As you can see in the 
+                picture here, it is common for these buttons highlighted in red to not be labeled and as a result, will make the user read an instruction manual in order to figure out what each button is mapped to. 
+                We can figure out which button turns on the power to the monitor, but all the other buttons are left a mystery. This is again is very common for monitors.  
+            </p>
+        </div>
+    </div>
 
 
+    <div style="margin-top:180px; max-width:1360px; margin-left:auto; margin-right:auto;">
+        <div style="width:450px; float:right; ">
+            <img src="./resources/img/inputs.jpg" style="width:450px; height:300px;" >
+        </div>
+        
+        <div class="justify-content-center" style="width:830px;" >
+            <h2>Inputs and Connectivity</h2>
+            <p>
+                The ports labeled on the back of a monitor indicate all the connection types it supports. The types of connections vary based off your computer or laptop and typically 
+                change over time. Because of this, many monitors offer multiple connection types as we can see in the picture of this monitor. Before looking for a monitor, you must check 
+                what connection ports your laptop or computer supports and purchase a monitor that supports said connections. All the connection types used today are VGA, DVI, HDMI, mini HDMI, DisplayPort, 
+                and mini DisplayPort. For the monitor shown in the picture, if you had a DVI connection on your computer or laptop and none other – you would have to purchase an accessory that converts your 
+                connection to one available on the monitor (or purchase another monitor to save money). 
+            </p>
+        </div>
+    </div>
 
+    <div class="bg-light" style="margin-top:130px; max-width:1360px; margin-left:auto; margin-right:auto;">
+        
+        <div class="justify-content-center" >
+            <h2 style="text-align: center;">Display Resolution and Refresh Rate</h2>
+            <p>
+                The last important feature of a monitor is the screen’s resolution. There isn’t a whole lot to talk about in terms of a monitor’s resolution other than the difference in picture quality. 
+                The larger a screens resolution, the more clarity is added to the images displayed on the screen. There are 3 standard resolutions monitor’s support: 1920x1080 
+                (1080p and the standard resolution for most monitors), 2560x1440 (2k/QHD), and 3840x2160 (4k/UHD). All you need to know about these resolutions is that these are the number of 
+                pixels that are displayed on the screen, and the higher the number – the greater the picture quality is on the screen. The refresh rate on a monitor is given in hertz and is translated to 
+                the number of frames that are displayed per second on a monitor. There are 4 standard refresh rates offered on monitors: 60Hz, 120Hz, 144Hz, and 240Hz. The takeaway here is that the higher 
+                the refresh rate, then the more information on a screen is given to you per second. This translates to a smoother looking motion for videos played on your screen. If you have a lower refresh 
+                rate, then it will look like a flip book because less information is shown to you per second. The standard resolution and refresh rate of monitors is 1920x1080p and 60Hz. Here is an animation 
+                to show a slow motion video on each refresh rate (this will look exaggerated as the video is slowed down dramatically).
+            </p>
+
+            <video class="center" width="890" height="500" controls >
+                <source src="./resources/img/refreshrate.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="centerb">
+                  <a href="./wrtg-3.html" class="btn btn-primary" style="margin-top:20px; width:480px; height:50px;">Go to Analysis and Conclusion Page →</a>
+                </div>
+              
+        </div>
+    </div>
+
+
+    
 
 
 	<!-- Ignore the code below. All of this is just for the code description -->
